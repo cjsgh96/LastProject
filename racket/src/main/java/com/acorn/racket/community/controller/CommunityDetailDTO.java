@@ -1,19 +1,17 @@
 package com.acorn.racket.community.controller;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
+@NoArgsConstructor
+@AllArgsConstructor
 @Data
 public class CommunityDetailDTO {
 	
+	int post_id;
 	String board_name;
 	String user_id;
-	int post_id;
-	String post_title;
-	String post_content;
-	int uppost;
-	int downpost;
-	String post_date;
-	String post_time;
-	int post_viewes;
+	
 	
 }
