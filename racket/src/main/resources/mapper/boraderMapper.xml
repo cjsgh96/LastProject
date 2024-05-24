@@ -11,18 +11,6 @@
 
 	<!-- resultMap 사용하는 경우 테이블의 컬러명과 DTO객체의 속성명이 다른경우 -->
 
-	<resultMap id="DetailResult" type="CommunityDetailDTO">
-		<result property="board_name" column="board_name" />
-		<result property="user_id" column="user_id" />
-		<result property="post_id" column="post_id" />
-		<result property="post_title" column="post_title" />
-		<result property="post_content" column="post_content" />
-		<result property="uppost" column="uppost" />
-		<result property="downpost" column="downpost" />
-		<result property="post_date" column="post_date" />
-		<result property="post_time" column="post_time" />
-		<result property="post_viewes" column="post_viewes" />
-	</resultMap>
 
 
 
